@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Sawarabi+Gothic&family=Sawarabi+Mincho&family=Source+Code+Pro&display=swap');
+
+:root {
+	--salmon-gradient: linear-gradient(20deg, #eba, #e97, #e73, #e97, #e73, #ba9, #554);
+}
+
+html {
+	font-size: 62.5%;
+}
+
+@media screen and (max-width: 1000px) {
+	header {
+		position: sticky;
+		top: 0;
+	}
+
+	header ul {
+		display: none;
+	}
+
+	#top {
+		display: none;
+	}
+
+	#content-holder {
+		margin: 0 1em;
+	}
+}
+
+@media screen and (min-width: 1000px) {
+	header ul {
+		display: flex;
+
+		width: auto;
+		margin: 0;
+		padding: 0;
+
+		list-style-type: none;
+	}
+
+	header ul > li {
+		margin: auto 0.5em;
+	}
+
+	#top {
+		position: relative;
+
+		display: grid;
+
+		grid-template-columns: 150px 1fr;
+	}
+
+	#logo {
+		width: 150px;
+
+		grid-column: 1;
+		grid-row: 1 / 3;
+	}
+
+	#pagetitle {
+		font-size: 3rem;
+
+		width: 30rem;
+
+		color: #e73;
+
+		grid-column: 2;
+		grid-row: 1;
+	}
+
+	#description {
+		grid-column: 2;
+		grid-row: 2;
+	}
+
+	#content-holder {
+		max-width: 1000px;
+		margin: 3rem auto;
+		padding: 0 8rem;
+	}
+
+	h1 {
+		font-size: 2.4rem;
+	}
+
+	h2 {
+		font-size: 2rem;
+	}
+
+	h3 {
+		font-size: 1.6rem;
+	}
+
+	h1, h2, h3 {
+		display: flex;
+	}
+
+	.smon-section {
+		position: relative;
+		left: -8rem;
+	}
+
+	.smon-section::before {
+		min-width: 7rem;
+		margin-right: 1rem;
+
+		content: attr(data-sectionnum);
+		text-align: right;
+	}
+}
+
+header {
+	font-size: 2rem;
+
+	display: flex;
+
+	width: 100%;
+	padding: 0.5rem 0;
+
+	color: #fff;
+	background: var(--salmon-gradient);
+
+	justify-content: space-between;
+}
+
+header p {
+	font-size: 2rem;
+
+	margin: auto 0.5em;
+}
+
+header p::first-line {
+	text-indent: 0;
+}
+
+header a:link, header a:visited {
+	color: #fff;
+}
+
+body {
+	font-family: 'Sawarabi Gothic', sans-serif;
+	font-size: 1.6rem;
+
+	display: flex;
+	flex-direction: column;
+
+	min-height: 100vh;
+	margin: 0;
+}
+
+#content-holder {
+	flex-grow: 1;
+}
+
+footer {
+	font-size: 1.6rem;
+
+	width: 100%;
+
+	color: #fff;
+	background: var(--salmon-gradient);
+}
+
+footer p {
+	margin: 0.5rem;
+}
+
+footer p::first-line {
+	text-indent: 0;
+}
+
+footer div {
+	margin: auto;
+}
+
+p {
+	font-size: 1.6rem;
+}
+
+p::first-line {
+	text-indent: 1em;
+}
+
+a:visited {
+	color: #008;
+}
+
+.bordered-table {
+	border-collapse: collapse;
+}
+
+.bordered-table td, .bordered-table th {
+	padding: 0.3em;
+
+	border: 1px solid #000;
+}
+
+blockquote {
+	font-style: italic;
+
+	padding: 0 1em;
+
+	border-left: 3px solid #888;
+}
+
+blockquote::after {
+	font-style: normal;
+
+	display: block;
+
+	content: attr(cite);
+	text-align: right;
+
+	overflow-wrap: break-word;
+}
+
+.screen {
+	margin: 1em 0;
+	padding: 0 1em;
+
+	border: 1px solid #000;
+	border-radius: 8px;
+}
+
+.MathJax {
+	overflow-x: auto;
+	overflow-y: hidden;
+}
