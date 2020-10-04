@@ -29,5 +29,7 @@
 	<ul>
 		<li>Twitter -> <a href="https://twitter.com/AAAR_Salmon">@AAAR_Salmon</a></li>
 		<li>YouTube -> <a href="https://www.youtube.com/channel/UChDiKKeJIjQM2O60KFidx9Q">終に鮭</a></li>
+		<li>GitHub -> <a href="https://github.com/AAAR-Salmon">AAAR Salmon</a></li>
+		<li>AtCoder -> <a href="https://atcoder.jp/users/AAAR_Salmon">AAAR_Salmon</a></li>
 	</ul>
 </section>
