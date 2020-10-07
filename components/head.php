@@ -31,7 +31,7 @@ function print_head($json) {
 	<link rel="icon" href="/favicon.ico">
 	<script type="text/javascript" src="/js/numbering.js"></script>
 	<script type="text/javascript" src="/js/custom_elements.js"></script>
-	<!-- <script type="text/javascript" src="/js/zoomimg.js"></script> -->
+	<script type="text/javascript" src="/js/img_popup.js"></script>
 	EOD;
 }
 ?>
