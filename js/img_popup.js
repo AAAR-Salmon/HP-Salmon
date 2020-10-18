@@ -46,13 +46,13 @@ window.addEventListener('load', () => {
 
 		#wrapper-popup img {
 			min-width: 300px;
+			max-width: 90%;
 			min-height: 300px;
+			max-height: 90%;
 			margin: auto;
-			padding: 10px;
 
 			cursor: inherit;
 
-			border-radius: 5px;
 			background-image: url('/resources/transpalent_texture.png');
 		}`;
 	document.head.appendChild(style);
