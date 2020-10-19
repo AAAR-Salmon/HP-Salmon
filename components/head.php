@@ -29,9 +29,9 @@ function print_head($json) {
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="/css/style.css">
 	<link rel="icon" href="/favicon.ico">
-	<script type="text/javascript" src="/js/numbering.js"></script>
-	<script type="text/javascript" src="/js/custom_elements.js"></script>
-	<script type="text/javascript" src="/js/img_popup.js"></script>
+	<script type="text/javascript" src="/js/numbering.js" async></script>
+	<script type="text/javascript" src="/js/custom_elements.js" async></script>
+	<script type="text/javascript" src="/js/img_popup.js" async></script>
 	EOD;
 }
 ?>
