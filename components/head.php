@@ -36,7 +36,7 @@ function print_head($json) {
 	<script>
 		MathJax = {
 			tex: {
-				inlineMath: [['$', '$'], ['\\(', '\\)']],
+				inlineMath: [['$', '$'], ['\\\\(', '\\\\)']],
 				processEscapes: true // use \$ to produce a literal dollar sign (true is default)
 			}
 		};
