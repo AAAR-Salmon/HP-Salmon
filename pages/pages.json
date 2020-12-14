@@ -1,22 +1,22 @@
 {
 	"top": {
-		"path": "top/top.php",
+		"path": "top/index.php",
 		"title": "AAAR Salmon",
 		"hidden": true
 	},
-	"profile": {
-		"path": "profile/profile.php",
-		"title": "プロフィール",
-		"description": "需要がなさそうな終に鮭のプロフィールです"
-	},
 	"403": {
-		"path": "403/403.php",
+		"path": "403/index.php",
 		"title": "アクセス権がありません",
 		"hidden": true
 	},
 	"404": {
-		"path": "404/404.php",
+		"path": "404/index.php",
 		"title": "ページが存在しません",
 		"hidden": true
+	},
+	"profile": {
+		"path": "profile/index.php",
+		"title": "プロフィール",
+		"description": "需要がなさそうな終に鮭のプロフィールです"
 	}
 }
