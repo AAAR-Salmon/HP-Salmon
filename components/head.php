@@ -32,6 +32,16 @@ function print_head($json) {
 	<script type="text/javascript" src="/js/numbering.js" async></script>
 	<script type="text/javascript" src="/js/custom_elements.js" async></script>
 	<script type="text/javascript" src="/js/img_popup.js" async></script>
+	<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+	<script>
+		MathJax = {
+			tex: {
+				inlineMath: [['$', '$'], ['\\(', '\\)']],
+				processEscapes: true // use \$ to produce a literal dollar sign (true is default)
+			}
+		};
+	</script>
+	<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
 	EOD;
 }
 ?>
