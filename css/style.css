@@ -226,3 +226,9 @@ blockquote::after {
 	overflow-x: auto;
 	overflow-y: hidden;
 }
+
+.bordered-round {
+	border: 1px solid black;
+	border-radius: 5px;
+	padding: 1em;
+}
