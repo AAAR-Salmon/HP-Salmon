@@ -208,3 +208,12 @@ blockquote::after {
 	border-radius: 5px;
 	padding: 1em;
 }
+
+img {
+	max-width: 100%;
+}
+
+.img-center {
+	display: block;
+	margin: auto;
+}
