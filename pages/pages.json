@@ -18,5 +18,10 @@
 		"path": "profile/index.php",
 		"title": "プロフィール",
 		"description": "需要がなさそうな終に鮭のプロフィールです"
+	},
+	"abc185_c": {
+		"path": "01_abc185_c/index.php",
+		"title": "[ABC185 C]二項係数とDPによる総和制限数え上げの関係",
+		"description": "n項の総和制限数え上げのDPとパスカルの三角形の関係について述べます"
 	}
 }

@@ -1,0 +1,13 @@
+\documentclass[uplatex,dvisvgm]{standalone}
+\usepackage{tikz}
+
+\begin{document}
+	\begin{tikzpicture}[
+		level distance=20pt,
+		sibling distance=30pt,
+		every node/.style={font=\itshape},
+		edge from parent/.style={draw=none}
+		]
+		\input{|"node pascals_triangle.js 7"}
+	\end{tikzpicture}
+\end{document}
